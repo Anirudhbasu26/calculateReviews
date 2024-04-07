@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.calculator-widget {
+    position: relative;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 15px 15px;
+    width: 320px;
+    height: auto;
+}
+
+.header-container {
+    background-color: #0085FF;
+    border-radius: 8px;
+    padding: 10px 10px;
+    margin-bottom: 20px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.logo-container {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin-left: 10px;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center the logo inside the star container */
+    max-width: 80%; /* Ensure the logo fits inside the star container */
+    max-height: 80%; /* Ensure the logo fits inside the star container */
+}
+
+
+h3 {
+    margin: 0px;
+    margin-left: 20px;
+    color: #fff;
+}
+
+.input-container {
+    margin-bottom: 20px;
+}
+
+input[type="number"] {
+    width: calc(100% - 30px);
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: center; /* Center the text horizontally */
+    line-height: inherit; /* Inherit line height from parent */
+    
+}
+
+button {
+    width: 100%;
+    padding: 12px 0;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.error-message {
+    position: absolute;
+    bottom: 45px; /* Adjust the positioning as needed */
+    left: 0;
+    width: 100%; /* Occupy full width */
+    text-align: center; /* Center the error message */
+    color: red;
+    font-size: 12px;
+}
