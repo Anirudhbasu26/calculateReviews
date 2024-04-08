@@ -49,9 +49,9 @@ body {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%); /* Center the logo inside the star container */
-    max-width: 80%; /* Ensure the logo fits inside the star container */
-    max-height: 80%; /* Ensure the logo fits inside the star container */
+    transform: translate(-50%, -50%); 
+    max-width: 80%; 
+    max-height: 80%;
 }
 
 
@@ -70,8 +70,8 @@ input[type="number"] {
     padding: 15px;
     border: 1px solid #ccc;
     border-radius: 4px;
-    text-align: center; /* Center the text horizontally */
-    line-height: inherit; /* Inherit line height from parent */
+    text-align: center;
+    line-height: inherit;
     
 }
 
@@ -92,10 +92,10 @@ button:hover {
 
 .error-message {
     position: absolute;
-    bottom: 45px; /* Adjust the positioning as needed */
+    bottom: 45px; 
     left: 0;
-    width: 100%; /* Occupy full width */
-    text-align: center; /* Center the error message */
+    width: 100%; 
+    text-align: center; 
     color: red;
     font-size: 12px;
 }
